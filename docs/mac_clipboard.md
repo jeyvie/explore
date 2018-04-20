@@ -56,6 +56,9 @@ $ pbpaste | sed -e ‘s/foo/bar/g’ | pbcopy
 
 ```
 
+## 参考
+
+[pbcopy and pbpaste](https://medium.com/@sroberts/pbcopy-and-pbpaste-f6e20b320bc)
 
 
 
