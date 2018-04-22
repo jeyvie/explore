@@ -19,5 +19,9 @@
 
 * [ ] [MobX 和 Redux 的比较](https://github.com/sorrycc/blog/issues/5)
 
-
+* [ ] Tree-Shaking为什么没生效
+	
+	- 在函数里声明变量，其值引用了当前函数作用域外的一个引用类型时，那这个函数会被任务有副作用，不会 Tree-Shaking
+	- https://zhuanlan.zhihu.com/p/32831172
+	- https://github.com/mishoo/UglifyJS2/issues/1261
 
