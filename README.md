@@ -12,6 +12,8 @@
 
 * [ ] [CSS Paint API](https://mp.weixin.qq.com/s/JT2rYI8qGAiZlefih8bAwQ) 
 	- css也能编程了，不再只是简单的配置文件
+	- [Is Houdini ready yet](https://ishoudinireadyyet.com/)
+	- [Houdini：CSS 领域最令人振奋的革新](https://zhuanlan.zhihu.com/p/20939640)
 
 * [ ] [Chrome v66 新增 CSS Paint API 和 ServerTiming API](https://www.cnbeta.com/articles/soft/717805.htm)
 * [ ] [MutationObserver](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver)
