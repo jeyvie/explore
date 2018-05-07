@@ -27,3 +27,6 @@
 	- https://zhuanlan.zhihu.com/p/32831172
 	- https://github.com/mishoo/UglifyJS2/issues/1261
 
+* [ ] js垃圾回收机制 
+* [ ] HTTP 保持不丢包
+
