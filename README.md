@@ -29,4 +29,5 @@
 
 * [ ] js垃圾回收机制 
 * [ ] HTTP 保持不丢包
+* [x] [react 16 context](docs/context.md) 
 
