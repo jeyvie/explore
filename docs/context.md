@@ -337,3 +337,7 @@ class App extends Component {
 2. [Legacy Context](https://reactjs.org/docs/legacy-context.html)
 3. [对比React 16.3的新Context API和Redux](https://zhuanlan.zhihu.com/p/33829066)
 
+## 推荐
+
+1. [Hot Reloading with Time Travel at react-europe 2015](https://www.youtube.com/watch?v=xsSnOQynTHs)， Dan Abramov 介绍 `redux` 的视频
+
