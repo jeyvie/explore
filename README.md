@@ -31,3 +31,10 @@
 * [ ] HTTP 保持不丢包
 * [x] [react 16 context](docs/context.md) 
 
+
+## to watch
+
+1. [JavaScript in 2017: You might (not) need a framework](https://www.youtube.com/watch?v=dGws1pMWzCI)
+2. [The Reusable JavaScript REVOLUTION](https://www.youtube.com/watch?v=L-fx2xXSVso)
+3. [6 Things Your Junior Devs Don't Tell You](https://www.youtube.com/watch?v=m6G8f9pZZRM)
+
