@@ -28,7 +28,14 @@
 	- https://github.com/mishoo/UglifyJS2/issues/1261
 
 * [ ] js垃圾回收机制 
-* [ ] HTTP 保持不丢包
+* [x]  [网络丢包](https://blog.csdn.net/duandianr/article/details/77513506)
+		
+		1. 线缆故障
+		2. 带宽不够
+		3. 路由器/交换机/防火墙/等等)的设备性能
+		4. 网络设备软件问题
+
+		...
 * [x] [react 16 context](docs/context.md) 
 
 
