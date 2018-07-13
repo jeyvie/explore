@@ -175,3 +175,56 @@
    
 
 
+5. Null 和 Undefined
+
+    
+    ```
+    // Not much else we can assign to these variables!
+    let u: undefined = undefined;
+    let n: null = null;
+    ```
+    
+      默认情况下`null`和`undefined`是所有类型的子类型。 就是说你可以把 `null`和`undefined`赋值给`number`类型的变量。
+      
+      `--strictNullChecks` 标记下，`null`和`undefined`只能赋值给`void`和它们各自。
+  
+6. never
+
+    `never` 表示不会产生的值。比如，抛出异常或永远不会返回的函数的返回类型。
+    
+    > For instance, never is the return type for a function expression or an arrow function expression that always throws an exception or one that never returns
+    
+    当变量被任何类型限制而不会是真值时，它也可以是 `never`
+    
+    `never` 是任意类型的子集，但 `never` 没有子集
+    
+    
+    
+    ```
+    // Function returning never must have unreachable end point
+    function error(message: string): never {
+        throw new Error(message);
+    }
+    
+    // Inferred return type is never
+    function fail() {
+        return error("Something failed");
+    }
+    
+    // Function returning never must have unreachable end point
+    function infiniteLoop(): never {
+        while (true) {
+        }
+    }
+    
+    ```
+
+7. Object
+
+    表示非基础类型
+    
+    > 好像没有any好使， 不能去object下的方法
+    
+    
+
+
