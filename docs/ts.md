@@ -15,12 +15,8 @@
 
     也是种变量声明的方式
     
-    下面函数 `greeter` 的参数 `person` 的类型必须的跟 `Person` 一样。可以理解为:
+    下面函数 `greeter` 的参数 `person` 的类型必须的跟 `Person` 一样。可以理解为是特殊的类型标注:
     
-    
-    ```
-    一样： 是其超级
-    ```
     
     
     ```
@@ -223,8 +219,37 @@
 
     表示非基础类型
     
-    > 好像没有any好使， 不能去object下的方法
+    > 好像没有any好使， 不能去object下的方法。
     
+    `问题` 既然是 `object`, 是用其下面的方法时，又报错，最后只好用`any`。那 `object` 存在的意义是什么。
+     
     
+8. type asserion
+
+	告诉编译器，当前变量的类型。
+	
+	有 `<>` 和 `as` 两种语法类型
+	
+		
+	```
+	let someValue: any = "this is a string";
+	
+	let strLength: number = (<string>someValue).length;
+	```
+	
+	> 但是，不告诉编译器 `somevalue` 是 `string`, `length` 也能用吧
+	
+	```
+	let someValue: any = "this is a string";
+	
+	let strLength: number = (someValue as string).length;
+	```
+	
+
+
+
+## 来源
+
+1. [Basic Types](https://www.typescriptlang.org/docs/handbook/basic-types.html)
 
 
