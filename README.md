@@ -45,3 +45,9 @@
 2. [The Reusable JavaScript REVOLUTION](https://www.youtube.com/watch?v=L-fx2xXSVso)
 3. [6 Things Your Junior Devs Don't Tell You](https://www.youtube.com/watch?v=m6G8f9pZZRM)
 
+
+## article
+
+1. [css history](https://www.w3.org/Style/CSS20/history.html)
+2. [CSS Evolution](https://medium.com/@perezpriego7/css-evolution-from-css-sass-bem-css-modules-to-styled-components-d4c1da3a659b)
+
